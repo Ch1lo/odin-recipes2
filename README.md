@@ -1,0 +1,1 @@
+This project is apart of the odin project. It is the one project in the HTML intro. At the end of this, I will showcase my knowledge of the different elements, lists, images and such.
