@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+*{
+    font-family: 'Roboto' , sans-serif;
+}
+
+/* Header */
+header{
+    display: flex;
+    height: 110;
+    align-items: center;
+    background-color: white;
+
+    text-transform: uppercase;
+    padding-left: 20px;
+    padding-right: 250px;
+    justify-content: space-between;
+}
+
+header ul{
+    list-style: none;
+   text-decoration: none;
+   display: flex;
+   gap: 20px;
+}
+header a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+header button{
+    background-color: orange;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+}
+
+body{
+    margin: 0;
+}
+
+header .title h1{
+    margin: 0;
+    padding: 0;
+    font-weight: 900;
+    font-size: 48px;
+}
+
+header .titledesc p{
+    margin: 0;
+    padding: 0;
+}
+
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-top: solid black;
+    
+}
+
+footer .title .titletext{
+    text-transform: uppercase;
+}
+
+footer ul{
+    list-style: none;
+}
+
+footer .sociallogos{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+
+.information{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 500px;
+    padding: 50px;
+    gap: 50px;
+}
+
+.recipe-description{
+    display: flex;
+    padding: 20px;
+    padding-bottom: 0;
+    width: 400px;
+    height: 550px;
+    flex-direction: column;
+    border-radius: 10px;
+    border-bottom: 10px solid #ccc;
+}
+
+.recipe-description h1{
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+    font-weight: 900;
+    font-size: 40px;
+}
+
+.recipe-description .desc{
+    font-style: italic;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 25px;
+}
+
+.dishinfo{
+    display: flex;
+    justify-content: space-around;
+}
+
+.dishinfo div .info{
+    font-weight: 600;
+}
+
+.preptime h2{
+    font-weight: 0;
+}
+
+img.foodimage{
+    width: 500px;
+    height: auto;
+    border-radius: 50px;
+}
+
+
+/* Content */
+
+.content{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding: 50px;
+}
+
+.instructions{
+   
+    width: 900px;
+    height: 400px;
+    flex-shrink: 1;
+    padding: 20px;
+    border-radius: 10px;
+    
+}
+
+.instructions .title{
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+    font-weight: 900;
+    font-size: 40px;
+}
+
+.ingredients{
+    flex-shrink: 1;
+    border-radius: 10px;
+    padding: 20px;
+    
+}
+
+.instructions .list{
+    font-style: italic;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 25px;
+    line-height: 35px;
+}
+
+.ingredients .title{
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+    font-weight: 900;
+    font-size: 40px;
+}
+
+.ingredients .list{
+    font-style: italic;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 25px;
+    list-style: none;
+    line-height: 50px;
+}
+
