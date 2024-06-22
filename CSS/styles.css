@@ -60,11 +60,12 @@ header .titledesc p{
     margin: 0;
     padding: 0;
     display: flex;
-    height: 760px;
+    min-height: 760px;
     gap: 50px;
     background-color: #E7D4B5;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
     
 }
 
@@ -73,7 +74,7 @@ header .titledesc p{
     border-radius: 25px;
     padding: 20px;
     width: 250px;
-    height: 500px;
+    min-height: 500px;
     text-align: center;
     background-color: white;
     border-bottom: 10px solid #ccc;
