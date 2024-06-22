@@ -5,6 +5,13 @@
     font-family: 'Roboto' , sans-serif;
 }
 
+body{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
 /* Header */
 header{
     display: flex;
@@ -37,9 +44,6 @@ header button{
     color: white;
 }
 
-body{
-    margin: 0;
-}
 
 header .title h1{
     margin: 0;
@@ -86,6 +90,7 @@ footer .sociallogos{
     height: 500px;
     padding: 50px;
     gap: 50px;
+    flex-wrap: wrap;
 }
 
 .recipe-description{
@@ -131,6 +136,7 @@ img.foodimage{
     width: 500px;
     height: auto;
     border-radius: 50px;
+    border-bottom: 10px solid #ccc;
 }
 
 
@@ -141,6 +147,7 @@ img.foodimage{
     justify-content: center;
     gap: 50px;
     padding: 50px;
+    flex-wrap: wrap;
 }
 
 .instructions{
@@ -165,7 +172,6 @@ img.foodimage{
     flex-shrink: 1;
     border-radius: 10px;
     padding: 20px;
-    
 }
 
 .instructions .list{
